@@ -1,0 +1,106 @@
+/* large screen size 1070px */
+@media (max-width: 1070px) {
+  html {
+    font-size: 60%;
+  }
+  .container {
+    padding: 0 60px;
+  }
+  .img_content {
+    padding: 2rem 0;
+  }
+  .form_data {
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 0 60px;
+  }
+  .btn {
+    display: block;
+  }
+  .nav-bar nav {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -55%;
+    min-width: 308px;
+    min-height: 60vh;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  nav.active {
+    right: 0%;
+    transition: all 1s;
+  }
+  .nav-bar nav li {
+    margin: 2rem 4rem;
+  }
+  .nav-bar nav li a {
+    font-size: 1.4rem;
+    color: var(--white_color);
+    position: relative;
+  }
+  .fa-xmark {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    margin: 25px;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .sp_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .form_data {
+    width: 100%;
+  }
+  .form_data form input {
+    width: 100%;
+  }
+  /* Food Lover Start */
+
+  .btn-cat {
+    margin: 1rem 1rem;
+  }
+  /* Customer FeedBack Start */
+  .custmer_cards_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Blog */
+  @media (max-width: 768px) {
+    .blog_container {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* static Counter */
+  .counters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Food Lover end */
+
+@media (max-width: 520px) {
+  .menus_items_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Customer FeedBack Start */
+  .custmer_cards_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* static Counter */
+  .counters {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

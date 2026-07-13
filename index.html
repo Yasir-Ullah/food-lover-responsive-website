@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <!-- swiper.js this a website for sroll the images -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <title>Restaurant Website in HTML adn CSS</title>
+  </head>
+  <body>
+    <!-- ---- header start  ---- -->
+    <header>
+      <div class="container">
+        <div class="nav-bar">
+          <div class="log">
+            <h1>𝓯𝓸𝓸𝓭 𝓵𝓸𝓿𝓮𝓻</h1>
+          </div>
+
+          <nav>
+            <div class="btn xmark">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#sp_offer">Special Offers</a></li>
+            <li><a href="#food-lover">Menu</a></li>
+            <li><a href="#resevertion_tb1">Reservation</a></li>
+            <li><a href="#chef">Chef Team</a></li>
+            <li><a href="#custmer_feedBack">Testimonials</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </nav>
+
+          <div class="btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ---- header end  ---- -->
+
+    <!-- ---- Showcase start ---- -->
+    <main id="showcase">
+      <div class="container">
+        <div class="content">
+          <h2>SURPRISE YOUR PLATE</h2>
+
+          <h3>Find Food + Drinks</h3>
+        </div>
+      </div>
+    </main>
+    <!-- ---- Showcase end ---- -->
+
+    <!-- ---- Spacil offer start ---- -->
+    <aside id="sp_offer">
+      <div class="container">
+        <div class="sp_content">
+          <div class="left_side_content">
+            <div class="headins">
+              <h3>From The Menu</h3>
+              <h2>SPECIAL OFFERS</h2>
+            </div>
+            <div class="img_content">
+              <div class="imgs">
+                <img src="./images/offer_1.webp" alt="" id="offer_img" />
+                <div class="content_for_img">
+                  <h4>Pring Vag & Paste</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi ab esse sunt perspiciatis. Dolore, dicta!
+                  </p>
+                </div>
+              </div>
+              <div class="price">
+                <p>$10</p>
+              </div>
+            </div>
+            <div class="img_content">
+              <div class="imgs">
+                <img src="./images/offer_2.webp" alt="" id="offer_img" />
+                <div class="content_for_img">
+                  <h4>Pring Vag & Paste</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi ab esse sunt perspiciatis. Dolore, dicta!
+                  </p>
+                </div>
+              </div>
+              <div class="price">
+                <p>$10</p>
+              </div>
+            </div>
+            <div class="img_content">
+              <div class="imgs">
+                <img src="./images/offer_3.webp" alt="" id="offer_img" />
+                <div class="content_for_img">
+                  <h4>Pring Vag & Paste</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi ab esse sunt perspiciatis. Dolore, dicta!
+                  </p>
+                </div>
+              </div>
+              <div class="price">
+                <p>$10</p>
+              </div>
+            </div>
+          </div>
+          <div class="right_side_content">
+            <div class="img_right_side">
+              <img src="./images/offer_4.jpeg" alt="" />
+              <div class="over_img">
+                <a href="#"><h2>Menous</h2></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- ---- Spacil offer end ---- -->
+
+    <!-- ---- Resevertion Now start ---- -->
+    <div id="resevertion_tb1">
+      <div class="container">
+        <div class="form_data">
+          <h3 class="normal_hadding_1" style="color: white">Your Table</h3>
+          <h2 class="main_heading">Reservation Now..</h2>
+          <form action="#">
+            <input type="text" name="" id="" placeholder="Name" />
+            <input type="text" name="" id="" placeholder="Contact Number" />
+            <input type="email" name="" id="" placeholder="Email Address" />
+            <input type="date" name="" id="" placeholder="Book Data" />
+            <input type="time" name="" id="" placeholder="Your Time" />
+            <textarea
+              name=""
+              id=""
+              cols="10"
+              rows="10"
+              placeholder="Message Requist"
+            ></textarea>
+            <button type="button">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- ---- Resevertion Now end ---- -->
+
+    <!-- ---- Deal Width Start ---- -->
+    <section id="deal_tody">
+      <div class="container swiper mySwiper">
+        <h3 class="normal_hadding_1">Deal Today</h3>
+        <h2 class="main_heading_1">TODY SPECIAL DISH</h2>
+        <div class="card_content swiper-wrapper">
+          <div class="card swiper-slide">
+            <img src="./images/tody_deal_1.jpg" alt="" />
+            <h4>Pring Veg & Paste</h4>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consecteturbr
+              <br />
+              adipisicing elit. In, doloribus sequi amet aut deleniti sapiente
+              <br />
+              obcaecati incidunt ex adipisci numquam.
+            </p>
+            <p class="price">Only $99</p>
+          </div>
+          <div class="card swiper-slide">
+            <img src="./images/tody_deal_2.jpg" alt="" />
+            <h4>Pring Veg & Paste</h4>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consecteturbr
+              <br />
+              adipisicing elit. In, doloribus sequi amet aut deleniti sapiente
+              <br />
+              obcaecati incidunt ex adipisci numquam.
+            </p>
+            <p class="price">Only $199</p>
+          </div>
+          <div class="card swiper-slide">
+            <img src="./images/tody_deal_3.jpg" alt="" />
+            <h4>Pring Veg & Paste</h4>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consecteturbr
+              <br />
+              adipisicing elit. In, doloribus sequi amet aut deleniti sapiente
+              <br />
+              obcaecati incidunt ex adipisci numquam.
+            </p>
+            <p class="price">Only $299</p>
+          </div>
+          <div class="card swiper-slide">
+            <img src="./images/tody_deal_4.jpg" alt="" />
+            <h4>Pring Veg & Paste</h4>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consecteturbr
+              <br />
+              adipisicing elit. In, doloribus sequi amet aut deleniti sapiente
+              <br />
+              obcaecati incidunt ex adipisci numquam.
+            </p>
+            <p class="price">Only $399</p>
+          </div>
+
+          <div class="card swiper-slide">
+            <img src="./images/tody_deal_5.jpg" alt="" />
+            <h4>Pring Veg & Paste</h4>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consecteturbr
+              <br />
+              adipisicing elit. In, doloribus sequi amet aut deleniti sapiente
+              <br />
+              obcaecati incidunt ex adipisci numquam.
+            </p>
+            <p class="price">Only $499</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- ---- Deal Width Start ---- -->
+
+    <!-- ---- Food Lover Start ---- -->
+    <section id="food-lover">
+      <div class="container">
+        <h3 class="normal_hadding_1">Food Lover</h3>
+        <h2 class="main_heading_1">RESURENT MENU</h2>
+        <div class="food_lover_container">
+          <div class="btn_container">
+            <button type="button" class="btn-cat active_btn all_food_btn">
+              All Dishes
+            </button>
+            <button type="button" class="btn-cat dinner_food_btn">
+              Dinner
+            </button>
+            <button type="button" class="btn-cat lunch_food_btn">Lunch</button>
+            <button type="button" class="btn-cat starter_food_btn">
+              Starter
+            </button>
+          </div>
+          <div class="menus_items_container all_Dishes">
+            <div class="img_cards dinner">
+              <img src="./images/dinner_1.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+            <div class="img_cards dinner">
+              <img src="./images/dinner_2.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+            <div class="img_cards dinner">
+              <img src="./images/dinner_3.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+
+            <div class="img_cards lunch">
+              <img src="./images/lunch_1.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+            <div class="img_cards lunch">
+              <img src="./images/lunch_2.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+            <div class="img_cards lunch">
+              <img src="./images/lunch_3.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+
+            <div class="img_cards starter">
+              <img src="./images/starter_1.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+            <div class="img_cards starter">
+              <img src="./images/starter_2.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+            <div class="img_cards starter">
+              <img src="./images/starter_3.jfif" alt="" />
+              <p class="price">Only On 29 Dollores</p>
+              <p>chicken and Cashews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---- Food Lover End ---- -->
+
+    <!-- ---- Customer FeedBack Start ---- -->
+    <section id="custmer_feedBack">
+      <div class="container">
+        <h3 class="normal_hadding_1">Food Lover</h3>
+        <h2 class="main_heading">CUSTMER FEEDBACK</h2>
+        <div class="custmer_cards_container">
+          <div class="custmer_card">
+            <img src="./images/custmer_1.webp" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              necessitatibus magnam iusto delectus veritatis unde totam natus
+              mollitia.
+            </p>
+            <p class="name">Ann Van</p>
+          </div>
+          <div class="custmer_card">
+            <img src="./images/custmer_2.webp" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              necessitatibus magnam iusto delectus veritatis unde totam natus
+              mollitia.
+            </p>
+            <p class="name">Jamp C</p>
+          </div>
+          <div class="custmer_card">
+            <img src="./images/custmer_3.webp" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              necessitatibus magnam iusto delectus veritatis unde totam natus
+              mollitia.
+            </p>
+            <p class="name">Caray Ge</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---- Customer FeedBack End ---- -->
+
+    <!-- ---- Static Counter Start ---- -->
+    <section id="static_counter">
+      <div class="container">
+        <h3 class="normal_hadding_1">Our Achievements</h3>
+        <h2 class="main_heading">TRUSTED BY THOUSANDS OF CUSTOMERS</h2>
+        <div class="counters">
+          <div class="counter">
+            <div class="num" data-target="391">0</div>
+            <h3 style="color: white">Best Dishes</h3>
+          </div>
+          <div class="counter">
+            <div class="num" data-target="491">0</div>
+            <h3 style="color: white">Awards Won</h3>
+          </div>
+          <div class="counter">
+            <div class="num" data-target="691">0</div>
+            <h3 style="color: white">our Chefs</h3>
+          </div>
+          <div class="counter">
+            <div class="num" data-target="891">0</div>
+            <h3 style="color: white">Dily Customrs</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---- Statick Counter End ---- -->
+    <!--  --- Chef Start ---   -->
+    <section id="chef">
+      <div class="chef_container swiper mySwiper">
+        <h3 class="normal_hadding_1">Chef Team</h3>
+        <h2 class="main_heading_1">BEST CHEF FOR YOU</h2>
+
+        <div class="swiper-wrapper">
+          <div class="chef_card swiper-slide">
+            <img src="./images/chef_1.jfif" alt="Chef" />
+            <div class="chef_content">
+              <h2>Remono Fentos</h2>
+              <p class="position">Senior Chef</p>
+              <div class="social_icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="chef_card swiper-slide">
+            <img src="./images/chef_2.jfif" alt="Chef" />
+            <div class="chef_content">
+              <h2>John Smith</h2>
+              <p class="position">Master Chef</p>
+              <div class="social_icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="chef_card swiper-slide">
+            <img src="./images/chef_3.jfif" alt="Chef" />
+            <div class="chef_content">
+              <h2>David Brown</h2>
+              <p class="position">Head Chef</p>
+              <div class="social_icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="chef_card swiper-slide">
+            <img src="./images/chef_4.jfif" alt="Chef" />
+            <div class="chef_content">
+              <h2>Michael Lee</h2>
+              <p class="position">Executive Chef</p>
+              <div class="social_icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--  --- Chef End ---   -->
+    <!-- blog Start -->
+    <section id="blog">
+      <div class="container">
+        <h3 class="normal_hadding_1">Our Blog</h3>
+        <h2 class="main_heading_1">LATEST ARTICLES & NEWS</h2>
+
+        <div class="blog_container">
+          <div class="blog_card">
+            <img src="./images/blog_1.jpg" alt="Blog Image" />
+            <div class="blog_content">
+              <span>July 12, 2026</span>
+              <h3>Top 5 Signature Dishes You Must Try</h3>
+              <p>
+                Discover the most popular dishes loved by our customers and
+                prepared by our expert chefs.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          <div class="blog_card">
+            <img src="./images/blog_2.jpg" alt="Blog Image" />
+            <div class="blog_content">
+              <span>July 08, 2026</span>
+              <h3>The Secret Behind Our Fresh Ingredients</h3>
+              <p>
+                Learn how we carefully select fresh ingredients to create
+                unforgettable flavors every day.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          <div class="blog_card">
+            <img src="./images/blog_3.jpg" alt="Blog Image" />
+            <div class="blog_content">
+              <span>July 05, 2026</span>
+              <h3>Meet Our Award-Winning Chef Team</h3>
+              <p>
+                Get to know the talented chefs who bring creativity and passion
+                to every dish we serve.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog End -->
+
+    <!-- --- footer Start -->
+    <section id="footer">
+      <div class="container">
+        <div class="footer_container">
+          <div class="about_us">
+            <h1>𝓯𝓸𝓸𝓭 𝓵𝓸𝓿𝓮𝓻</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at
+              dolorum quia accusamus minus! Reiciendis saepe autem minus dolore
+              aperiam.
+            </p>
+            <a href="">Read More</a>
+          </div>
+          <div class="opening_hours">
+            <h2>Opening Hours</h2>
+            <p>MONDAY: <span>Close</span></p>
+            <p class="day">TUR-FRI: <span>-------10.00 AM 9.00 PM</span></p>
+            <p class="day">STAURDAY: <span>-------10.00 AM 9.00 PM</span></p>
+            <p class="day">STAURDAY: <span>-------10.00 AM 12.00 PM</span></p>
+            <p class="day">SUNDAY: <span>-------10.00 AM 12.00 PM</span></p>
+          </div>
+          <div class="contact_us">
+            <h2>Contact Us</h2>
+            <h3>GET IN TOUCH</h3>
+            <p>+3161547154`</p>
+            <p class="add"></p>
+            <p>
+              199 King Street, Melbourne Victoria 3000 Australia 11 ANBI 1119
+              159 714
+            </p>
+            <p class="email"></p>
+            <p>older@foodLover.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --- footer End -->
+    <footer>
+      <div class="container">
+        <p>
+          copyright 2026 &copy; Food Lover Restaurent Designed By
+          <a
+            href="https://api.whatsapp.com/send/?phone=03161547154&text&type=phone_number&app_absent=0"
+            target="_blank"
+            >YASIR ULLAH</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- add Js File -->
+    <!-- swiper.js this a website for sroll the images -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
